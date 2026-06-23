@@ -249,7 +249,7 @@ function MainSite() {
               </div>
               <div>
                 <h1 className="font-['Poppins'] font-bold text-xl text-slate-800 leading-tight">
-                  Post Express
+                  Horizon Express
                 </h1>
                 <p className="text-xs text-green-600 font-semibold tracking-wide">MOVING & STORAGE</p>
               </div>
@@ -421,7 +421,7 @@ function MainSite() {
                     type="text"
                     value={trackingNumber}
                     onChange={(e) => setTrackingNumber(e.target.value)}
-                    placeholder="Enter tracking number (e.g. SWM-A3B7C2D1E)"
+                    placeholder="Enter tracking number (e.g. HEM-A3B7C2D1E)"
                     className="w-full pl-14 pr-4 py-5 text-slate-800 placeholder-slate-400 focus:outline-none text-lg"
                   />
                 </div>
@@ -630,7 +630,7 @@ function MainSite() {
                 Your Most Trusted Moving & Storage Partner
               </h2>
               <p className="text-slate-600 mb-4 leading-relaxed">
-                Post Express Moving & Storage Services is a leading logistics company founded on the
+                Horizon Express Mover & Storage Services is a leading logistics company founded on the
                 principles of reliability, transparency, and care.
               </p>
               <p className="text-slate-600 mb-8 leading-relaxed">
@@ -807,14 +807,14 @@ function MainSite() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                quote: "Post Express made our cross-country relocation completely stress-free. The team was punctual, professional, and handled every piece of furniture with extreme care.",
+                quote: "Horizon Express Mover made our cross-country relocation completely stress-free. The team was punctual, professional, and handled every piece of furniture with extreme care.",
                 name: "Sarah Mitchell",
                 role: "Homeowner, Austin TX",
                 initials: "SM",
                 gradient: "from-green-400 to-green-600"
               },
               {
-                quote: "We relocated our entire 80-person office over a weekend. Post Express delivered on every promise — zero downtime Monday morning.",
+                quote: "We relocated our entire 80-person office over a weekend. Horizon Express delivered on every promise — zero downtime Monday morning.",
                 name: "James Thornton",
                 role: "Operations Director, NovaTech",
                 initials: "JT",
@@ -902,7 +902,7 @@ function MainSite() {
                 </div>
                 <div>
                   <p className="font-semibold text-slate-800 mb-1">Email Us</p>
-                  <p className="text-slate-600">info@postsxps.com</p>
+                  <p className="text-slate-600">info@horizonexpressmover.com</p>
                 </div>
               </div>
 
@@ -1203,7 +1203,7 @@ function MainSite() {
                   <Truck className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <h3 className="font-['Poppins'] font-bold text-xl">Post Express</h3>
+                  <h3 className="font-['Poppins'] font-bold text-xl">Horizon Express Mover</h3>
                   <p className="text-xs text-green-400 font-semibold">MOVING & STORAGE</p>
                 </div>
               </a>
@@ -1247,7 +1247,7 @@ function MainSite() {
                 </li>
                 <li className="flex items-center gap-3">
                   <Mail className="w-4 h-4 text-green-500" />
-                  info@postsxps.com
+                  info@horizonexpressmover.com
                 </li>
               </ul>
 
@@ -1263,7 +1263,7 @@ function MainSite() {
 
           <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-slate-500 text-sm">
-              © {new Date().getFullYear()} Post Express Moving & Storage. All rights reserved.
+              © {new Date().getFullYear()} Horizon Express Moving & Storage. All rights reserved.
             </p>
             <div className="flex gap-6 text-slate-500 text-sm">
               <a href="#" className="hover:text-green-400 transition-colors">Privacy</a>

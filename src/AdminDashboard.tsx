@@ -205,7 +205,7 @@ export default function AdminDashboard() {
 
   const generateTrackingNumber = () => {
     const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
-    let result = 'PEX-';
+    let result = 'HEM-';
     for (let i = 0; i < 8; i++) {
       result += chars.charAt(Math.floor(Math.random() * chars.length));
     }
@@ -416,7 +416,7 @@ export default function AdminDashboard() {
             <div className="bg-gradient-to-r from-orange-500 to-orange-600 p-6 text-center">
               <Shield className="w-12 h-12 text-white mx-auto mb-3" />
               <h2 className="font-['Poppins'] text-2xl font-bold text-white">Admin Portal</h2>
-              <p className="text-orange-100 text-sm mt-1">Post Express Dashboard</p>
+              <p className="text-orange-100 text-sm mt-1">Horizon Express Dashboard</p>
             </div>
 
             <div className="p-6">
